@@ -1,5 +1,8 @@
 # Jornadas de Periodismo de Datos 2016, Madrid
 
+* http://jpd16.okfn.es/
+* Madrid, 5-7 mayo
+
 Por cuarto año consecutivo, Open Knowledge España organiza la conferencia anual de Periodismo de Datos y Datos Abiertos que se celebra, en esta ocasión, en una sola ciudad, en Madrid.
 
 Las ediciones anteriores se celebraron en Madrid, Barcelona y otras ciudades como Pamplona o Almería. Otras ciudades como Granada o Valencia querían sumarse a esta iniciativa, pero hemos decidido concentrar nuestros esfuerzos en una sola ciudad. Este año hemos elegido Madrid por varias razones. Por un lado, contamos con la misma infraestructura que los años anteriores: Fundación Telefónica, Asociación de la Prensa de Madrid y Medialab-Prado. Por otro, se celebra en octubre en Madrid la Conferencia Internacional de Datos Abiertos 2016, IODC2016, y nos gustaría aportar nuestra gotita de arena al gran número de actos satélites que se van a celebrar.
