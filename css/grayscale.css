@@ -54,7 +54,8 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #a40000;
+    /* 1d9b6c; */
 }
 
 .light {
