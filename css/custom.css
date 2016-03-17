@@ -89,11 +89,11 @@ body {
 
 @media(min-width:767px) {
     #presentacion.content-section {
-        padding-top: 160px;
+        padding: 160px 0;
     }
 
     .download-section {
-        padding: 0;
+        padding: 120px 0;
     }
 
     #asiste {
