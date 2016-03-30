@@ -88,8 +88,6 @@ body {
 /*
 * Sections
 */
-
-/* Intro */
 .intro {
     height: 100vh;
     display: flex;
@@ -132,6 +130,19 @@ body {
 .matrix {
     padding: 2rem 0 2rem 0;
 }
+.schedule {
+    height: 50vh;
+    background: #1A2980; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1A2980 , #26D0CE); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1A2980 , #26D0CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+
+
 .col-md-6 li {
     margin-bottom: 10px;
 }
