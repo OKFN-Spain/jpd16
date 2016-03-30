@@ -78,7 +78,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url(/img/cover.jpg) no-repeat bottom center scroll;
+    background: url(img/cover.jpg) no-repeat bottom center scroll;
     background-size: cover;
     color: rgb(255,255,255);
 }
