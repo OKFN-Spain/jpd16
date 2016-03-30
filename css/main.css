@@ -1,8 +1,44 @@
-body {
-    color: #2E2E2E;
-    background-color: #fff;
+html {
+    font-size: 62.5%;
 }
-
+body {
+    font-family: "Work Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.col-center {
+    margin: 0 auto;
+    float: none;
+}
+.separator {
+    border-top: 1px solid rgba(255,255,255,0.2);
+    max-width: 400px;
+}
+.btn-primary:hover {
+    border-color: #286090;
+}
+.navbar a {
+    color: rgb(255,255,255);
+}
+.navbar-collapse a:hover {
+    color: rgb(30,30,30);
+}
+.intro {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(/img/cover.jpg) no-repeat bottom center scroll;
+    background-size: cover;
+    color: rgb(255,255,255);
+}
+.introHeadline {
+    font-weight: 300;
+    font-size: 8rem;
+    line-height: 0.9;
+}
+.introCopy {
+    font-size: 2rem;
+}
 .black {
     background-color: black;
     color: white;
