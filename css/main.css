@@ -65,21 +65,58 @@ body {
 .u-borderRight {
     border-right: 1px solid rgba(220,220,220,0.5);
 }
+.u-white {
+    color: rgb(255,255,255);
+}
+.link {
+    color: #333;
+    transition: 0.2s;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.link:hover,
+.link:active,
+.link:focus {
+    text-decoration: none;
+    color: #1E5E99;
+}
+.link--inverse {
+    color: rgb(255,255,255);
+    transition: 0.2s;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.link--inverse:hover,
+.link--inverse:active,
+.link--inverse:focus {
+    text-decoration: none;
+    color: rgb(255, 220, 0);
+}
 .navbar {
     position: absolute;
     margin: 0;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
 }
+.navbarLogo {
+    width: 30px;
+    display: inline-block;
+}
+.navbarLogo--text {
+    display: inline-block;
+}
 .separator {
     border-top: 1px solid rgba(255,255,255,0.2);
-    max-width: 400px;
+    max-width: 300px;
+}
+.separator-inverse {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    max-width: 300px;
 }
 .btn-primary:hover {
     border-color: #286090;
 }
 .navbar a {
     color: rgb(255,255,255);
+    text-decoration: none;
 }
 .navbar-collapse a:hover {
     color: rgb(30,30,30);
@@ -123,7 +160,6 @@ body {
     padding-left: 0;
     font-size: 1.5rem;
 }
-
 .matrix {
     padding: 2rem 0 2rem 0;
 }
@@ -138,108 +174,34 @@ body {
     text-align: center;
     color: rgb(255,255,255);
 }
-.imgSpeaker {
+.speakerImg {
     max-width: 100px;
 }
+.speakerName {
+    color: #1E5E99;
+}
 .org {
-    background: #FF8008; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #FF8008 , #FFC837); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #FF8008 , #FFC837); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #EC6F66; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EC6F66 , #F3A183); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EC6F66 , #F3A183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.col-md-6 li {
-    margin-bottom: 10px;
+.sponsors {
+    list-style: none;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
 }
-
-.fa-bars {
-    color: #fff;
+.sponsor {
+    padding: 1rem;
 }
-
-.intro-body {
-    background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.5)
-    );
+.contact {
+    background: #283048; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
-.download-content {
-    padding-top: 0;
-}
-
-.download-body {
-    width: 100%;
-    padding: 50px 0;
-    background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.5)
-    );
-}
-
-#asiste h2 {
-    padding-top: 325px;
-    font-size: 40px;
-}
-
-#asiste h3 {
-    padding-top: 5px;
-    margin-bottom: 5px;
-    font-weight: 400;
-}
-
-#asiste a img {
-    margin-bottom: 40px;
-}
-
-
-@media(max-width:992px) {
-    .col-md-6 {
-        margin: 10px auto;
-        margin-bottom: 35px;
-        max-width: 400px;
-    }
-
-    .col-md-6 h4 {
-        margin-bottom: 10px;
-    }
-}
-
 
 @media(min-width: 768px) {
     .matrix {
         padding: 3rem 15rem 5rem 15rem;
     }
-
-    #presentacion.content-section {
-        padding: 160px 0;
-    }
-
-    .download-section {
-        padding: 120px 0;
-    }
-
-    #asiste {
-        padding-top: 100px;
-    }
-    #contacto {
-        padding-top: 160px;
-    }
-
-    #map {
-        margin-top: 80px;
-    }
-}
-
-/* TABLA del Programa */
-.titulo, .titulo1{
-    font-weight: bold;
-}
-
-.titulo1{
-    color: #e74135;
-    font-size: 30px;
-}
-
-td{
-    vertical-align: middle !important;
 }
