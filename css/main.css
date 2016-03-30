@@ -124,9 +124,6 @@ body {
     font-size: 1.5rem;
 }
 
-/*
-* Join us
-*/
 .matrix {
     padding: 2rem 0 2rem 0;
 }
@@ -141,8 +138,14 @@ body {
     text-align: center;
     color: rgb(255,255,255);
 }
-
-
+.imgSpeaker {
+    max-width: 100px;
+}
+.org {
+    background: #FF8008; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FF8008 , #FFC837); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FF8008 , #FFC837); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .col-md-6 li {
     margin-bottom: 10px;
 }
@@ -206,6 +209,7 @@ body {
     .matrix {
         padding: 3rem 15rem 5rem 15rem;
     }
+
     #presentacion.content-section {
         padding: 160px 0;
     }
@@ -217,10 +221,6 @@ body {
     #asiste {
         padding-top: 100px;
     }
-    #organizacion {
-        padding-top: 150px;
-        padding-bottom: 100px;
-    }
     #contacto {
         padding-top: 160px;
     }
@@ -228,28 +228,9 @@ body {
     #map {
         margin-top: 80px;
     }
-
-    #patrocinadores {
-        padding-top: 180px;
-    }
 }
-
-
-
-footer {
-    padding: 10px 0;
-    background-color: black;
-    color: white;
-}
-
-footer p {
-    margin: 10px;
-    font-size: 15px;
-}
-
 
 /* TABLA del Programa */
-
 .titulo, .titulo1{
     font-weight: bold;
 }
