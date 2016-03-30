@@ -29,7 +29,7 @@ body {
 }
 
 .intro-body {
-    background-image: 
+    background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.5)
@@ -43,7 +43,7 @@ body {
 .download-body {
     width: 100%;
     padding: 50px 0;
-    background-image: 
+    background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.5)
@@ -81,11 +81,6 @@ body {
     }
 }
 
-@media(min-width:768px) {
-    .intro .intro-body .brand-heading {
-        font-size: 80px;
-    }
-}
 
 @media(min-width:767px) {
     #presentacion.content-section {
@@ -131,7 +126,7 @@ body {
 
 footer {
     padding: 10px 0;
-    background-color: black;    
+    background-color: black;
     color: white;
 }
 
