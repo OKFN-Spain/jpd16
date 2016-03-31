@@ -14,12 +14,9 @@ $( document ).ready(function() {
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/dark-v8',
-        center: [-3.6934784232611264, 40.41297234503051],
+        center: [-3.6935213386006467, 40.411403908491764],
         zoom: 14,
-        maxBounds: [
-            [-3.727627,40.397941], // Southwest coordinates
-            [-3.660078,40.428329]  // Northeast coordinates
-        ]
+        interactive: false
     });
 
     // add medialab marker
@@ -50,7 +47,4 @@ $( document ).ready(function() {
             }
         });
     });
-
-    // disable annoying scroll interaction
-    map.scrollZoom.disable();
 });

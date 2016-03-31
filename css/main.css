@@ -98,12 +98,12 @@ body {
 }
 .separator {
     border-top: 1px solid rgba(0,0,0,0.1);
-    width: 300px;
+    width: 200px;
     margin-top: 10px;
 }
 .separator--inverse {
     border-top: 1px solid rgba(255,255,255,0.2);
-    width: 300px;
+    width: 200px;
     margin-top: 10px;
 }
 .btn {
@@ -130,8 +130,7 @@ body {
     width: 100%;
     background-image: -webkit-linear-gradient(0deg, transparent 0, rgba(0, 0, 0, 0.5) 100%);
     background-image: linear-gradient(0deg, transparent 0, rgba(0, 0, 0, 0.5) 100%);
-    padding-left: 1rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     text-align: center;
     margin: 0 auto;
 }
