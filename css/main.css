@@ -68,6 +68,9 @@ body {
 .u-white {
     color: rgb(255,255,255);
 }
+.u-fullWidth {
+    width: 100%;
+}
 .link {
     color: #333;
     transition: 0.2s;
@@ -104,12 +107,14 @@ body {
     display: inline-block;
 }
 .separator {
-    border-top: 1px solid rgba(255,255,255,0.2);
-    max-width: 300px;
-}
-.separator-inverse {
     border-top: 1px solid rgba(0,0,0,0.1);
-    max-width: 300px;
+    width: 300px;
+    margin-top: 10px;
+}
+.separator--inverse {
+    border-top: 1px solid rgba(255,255,255,0.2);
+    width: 300px;
+    margin-top: 10px;
 }
 .btn-primary:hover {
     border-color: #286090;
@@ -185,14 +190,18 @@ body {
     background: -webkit-linear-gradient(to left, #EC6F66 , #F3A183); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #EC6F66 , #F3A183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.sponsors {
-    list-style: none;
+.sponsorList {
     padding: 2rem;
-    margin: 0 auto;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .sponsor {
     padding: 1rem;
+}
+.sponsorLogo {
+    height: 60px;
 }
 .contact {
     background: #283048; /* fallback for old browsers */
