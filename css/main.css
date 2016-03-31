@@ -109,6 +109,10 @@ body {
 .btn-primary:hover {
     border-color: #286090;
 }
+.lazy {
+    opacity: 0;
+    transition: opacity .3s ease-in;
+}
 
 /* Header */
 .header {
@@ -245,7 +249,9 @@ body {
     background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-/* Tablet */
+/*
+* Tablet
+*/
 @media(min-width: 768px) {
     .mastheadLink {
         margin: 0;
@@ -269,7 +275,9 @@ body {
     }
 }
 
-/* Desktop */
+/*
+* Desktop
+*/
 @media(min-width: 992px) {
     .shareContainer {
         position: absolute;
@@ -290,6 +298,7 @@ body {
     .speaker {
         padding: 2.5rem;
     }
+    /* cool borders */
     .joinUs.one,
     .joinUs.two {
         border-bottom: 1px solid rgba(220,220,220,0.5);
