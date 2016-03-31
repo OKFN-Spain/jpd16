@@ -123,16 +123,17 @@ body {
 /* Header */
 .header {
     z-index: 1;
+    padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     display: flex;
     flex-direction: column;
     position: absolute;
+    justify-content: center;
     width: 100%;
-    background-image: -webkit-linear-gradient(0deg, transparent 0, rgba(0, 0, 0, 0.5) 100%);
-    background-image: linear-gradient(0deg, transparent 0, rgba(0, 0, 0, 0.5) 100%);
-    padding-top: 0.5rem;
-    text-align: center;
     margin: 0 auto;
+    text-align: center;
+    background-image: -webkit-linear-gradient(0deg, transparent 0, rgba(0, 0, 0, 0.8) 100%);
+    background-image: linear-gradient(0deg, transparent 0, rgba(0, 0, 0, 0.8) 100%);
 }
 .navbarImg {
     height: 50px;
@@ -150,7 +151,7 @@ body {
 }
 .headerLinks {
     display: inline-block;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 .headerLinks--link {
     margin-left: 1rem;
