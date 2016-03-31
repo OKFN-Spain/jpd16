@@ -192,11 +192,18 @@ body {
     padding-left: 0;
     font-size: 1.5rem;
 }
-.matrix {
+.flex-group {
+    display: flex;
+    flex-flow: row wrap;
     padding: 2rem 0 2rem 0;
+    position: relative;
+    justify-content: center;
+}
+.participate {
+    padding: 1.5rem;
+    flex-basis: 385px;
 }
 .schedule {
-    height: 50vh;
     background: #1A2980; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #1A2980 , #26D0CE); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #1A2980 , #26D0CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -228,7 +235,7 @@ body {
     padding: 1rem;
 }
 .sponsorLogo {
-    height: 60px;
+    max-height: 60px;
 }
 .contact {
     background: #283048; /* fallback for old browsers */
@@ -236,13 +243,13 @@ body {
     background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-/* Desktop media queries */
+/* Tablet */
 @media(min-width: 768px) {
     .mastheadLink {
         margin: 0;
     }
-    .matrix {
-        padding: 3rem 15rem 5rem 15rem;
+    .flex-group {
+        padding: 3rem 5rem 5rem 5rem;
     }
     .header {
         flex-direction: row;
@@ -260,7 +267,7 @@ body {
     }
 }
 
-/* Share buttons */
+/* Desktop */
 @media(min-width: 992px) {
     .shareContainer {
         position: absolute;
@@ -276,5 +283,18 @@ body {
     .shareButton--facebook,
     .shareButton--email {
         margin-right: 0.5rem;
+    }
+    .participate {
+        padding: 2.5rem;
+    }
+    .participate.one {
+        border-bottom: 1px solid rgba(220,220,220,0.5);
+        border-right: 1px solid rgba(220,220,220,0.5);
+    }
+    .participate.two {
+        border-bottom: 1px solid rgba(220,220,220,0.5);
+    }
+    .participate.three {
+        border-right: 1px solid rgba(220,220,220,0.5);
     }
 }
