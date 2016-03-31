@@ -62,9 +62,6 @@ body {
 .p-t-4 {
     padding-top: 4rem;
 }
-.u-borderBottom {
-    border-bottom: 1px solid rgba(220,220,220,0.5);
-}
 .u-borderRight {
     border-right: 1px solid rgba(220,220,220,0.5);
 }
@@ -115,9 +112,6 @@ body {
 .lazy {
     opacity: 0;
     transition: opacity .3s ease-in;
-}
-.u-textShadow {
-    text-shadow: 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff;
 }
 .u-red {
     color: #EC3D2A;
@@ -258,9 +252,6 @@ body {
 }
 .medialab {
     width: 100px;
-}
-#map {
-    position:static;
 }
 .mapText {
     position: relative;
