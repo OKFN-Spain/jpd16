@@ -180,7 +180,7 @@ body {
     color: rgb(255,255,255);
 }
 .introHeadline {
-    font-family:"HelveticaNeue-CondensedBold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family:"HelveticaNeue-CondensedBold", "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 700;
     font-size: 3rem;
     padding-top: 2rem;
@@ -267,6 +267,10 @@ body {
 }
 .footer {
     padding-top: 6rem;
+}
+.staticMap {
+    position: absolute;
+    width: 100%;
 }
 
 
