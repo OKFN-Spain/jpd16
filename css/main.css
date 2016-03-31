@@ -192,17 +192,6 @@ body {
     padding-left: 0;
     font-size: 1.5rem;
 }
-.flex-group {
-    display: flex;
-    flex-flow: row wrap;
-    padding: 2rem 0 2rem 0;
-    position: relative;
-    justify-content: center;
-}
-.participate {
-    padding: 1.5rem;
-    flex-basis: 385px;
-}
 .schedule {
     background: #1A2980; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #1A2980 , #26D0CE); /* Chrome 10-25, Safari 5.1-6 */
@@ -212,6 +201,19 @@ body {
     justify-content: center;
     text-align: center;
     color: rgb(255,255,255);
+}
+.flex-joinUs,
+.flex-speakers {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2rem 0 2rem 0;
+    position: relative;
+    justify-content: center;
+}
+.joinUs,
+.speaker {
+    padding: 1.5rem;
+    flex-basis: 385px;
 }
 .speakerImg {
     max-width: 100px;
@@ -248,7 +250,7 @@ body {
     .mastheadLink {
         margin: 0;
     }
-    .flex-group {
+    .flex-joinUs {
         padding: 3rem 5rem 5rem 5rem;
     }
     .header {
@@ -284,17 +286,27 @@ body {
     .shareButton--email {
         margin-right: 0.5rem;
     }
-    .participate {
+    .joinUs,
+    .speaker {
         padding: 2.5rem;
     }
-    .participate.one {
+    .joinUs.one,
+    .joinUs.two {
         border-bottom: 1px solid rgba(220,220,220,0.5);
+    }
+    .joinUs.one,
+    .joinUs.three {
         border-right: 1px solid rgba(220,220,220,0.5);
     }
-    .participate.two {
+    .speaker.one,
+    .speaker.two,
+    .speaker.three {
         border-bottom: 1px solid rgba(220,220,220,0.5);
     }
-    .participate.three {
+    .speaker.one,
+    .speaker.two,
+    .speaker.four,
+    .speaker.five {
         border-right: 1px solid rgba(220,220,220,0.5);
     }
 }
