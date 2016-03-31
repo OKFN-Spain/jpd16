@@ -268,11 +268,15 @@ body {
 .footer {
     padding-top: 6rem;
 }
+.contact {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
 .staticMap {
     position: absolute;
-    width: 100%;
 }
-
 
 /*
 * Tablet
