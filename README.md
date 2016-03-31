@@ -12,22 +12,16 @@ Durante tres días se desarrollarán conferencias, debates, mesas redondas, tall
 Además, la joven Ley de Transparencia afronta su segundo año con el desafío por parte de gobiernos regionales y locales de liberar sus datos, lo que abre las puertas al desarrollo del periodismo de datos para temas locales.
 
 ## Web
+Es un diseño propio, creado por [Martín González](https://twitter.com/martgnz).
 
-Hemos basado la web en [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
+Usa [Bootstrap](http://getbootstrap.com/), el framework creado por [Mark Otto](https://twitter.com/mdo) y [Jacob Thorton](https://twitter.com/fat) para Twitter.
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) es una plantilla de HTML para [Bootstrap](http://getbootstrap.com/) creada por [Start Bootstrap](http://startbootstrap.com/). Ofrece varias secciones de contenido y un mapa de Google donde crear un marcador.
+Si tienes que modificar los estilos, están en `main.css`. Antes de ir a producción se minifica con [uncss](https://github.com/giakki/uncss):
 
-Nos hemos inspirado en la web de la [VII Jornadas de Usuarios de R](http://r-es.org/7jornadasR/) que realizaron a partir de esta plantilla y [trabajando la web en GitHub](https://github.com/cjgb/sitio7jr/).
-
-Start Bootstrap fue creada y lo mantiene **David Miller** de [Iron Summit Media Strategies](http://www.ironsummitmedia.com/). Puedes encontrarle en:
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap se basa en [Bootstrap](http://getbootstrap.com/), el framework creado por [Mark Otto](https://twitter.com/mdo) y [Jacob Thorton](https://twitter.com/fat) para Twitter con licencia 
-
-Su licencia es [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-grayscale/blob/gh-pages/LICENSE).
+```bash
+$ uncss http://localhost:8080 > style.min.css
+```
+El Javascript está concatenado, uso jQuery, [balance-text](https://github.com/adobe-webplatform/balance-text) y [unveil](https://github.com/luis-almeida/unveil).
 
 ## Participa
-
 Si quieres participar en la web o en las jornadas, puedes escribir a periodismodatos en la okfn.es o [crear una **issue**](https://github.com/OKFN-Spain/jpd16/issues/new)
