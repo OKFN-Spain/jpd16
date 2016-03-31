@@ -103,6 +103,9 @@ body {
     width: 300px;
     margin-top: 10px;
 }
+.btn {
+    border-radius: 2px;
+}
 .btn-primary:hover {
     border-color: #286090;
 }
@@ -138,7 +141,7 @@ body {
 }
 .headerLinks {
     display: inline-block;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 .headerLinks--link {
     margin-left: 1rem;
@@ -165,11 +168,12 @@ body {
 }
 .introHeadline {
     font-weight: 300;
-    font-size: 8rem;
+    font-size: 3rem;
+    padding-top: 2rem;
     line-height: 0.9;
 }
 .introCopy {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .summary {
     background: #ECE9E6; /* fallback for old browsers */
@@ -246,6 +250,13 @@ body {
     .headerLinks {
         padding-top: 0.4rem;
         margin-top: 1rem;
+        font-size: 1.6rem;
+    }
+    .introHeadline {
+        font-size: 6rem;
+    }
+    .introCopy {
+        font-size: 2rem;
     }
 }
 
