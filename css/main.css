@@ -11,6 +11,9 @@ body {
     margin: 0 auto;
     float: none;
 }
+.m-0 {
+    margin: 0;
+}
 .m-b-1 {
     margin-bottom: 1rem;
 }
@@ -112,6 +115,9 @@ body {
 .lazy {
     opacity: 0;
     transition: opacity .3s ease-in;
+}
+.u-textShadow {
+    text-shadow: 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff;
 }
 
 /* Header */
@@ -243,11 +249,16 @@ body {
 .sponsorLogo {
     max-height: 60px;
 }
-.contact {
-    background: #283048; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+#map {
+    position:static;
 }
+.mapText {
+    position: relative;
+}
+.footer {
+    padding-top: 6rem;
+}
+
 
 /*
 * Tablet
