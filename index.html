@@ -1,338 +1,388 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="robots" content="index,follow,noodp"/>
-        <meta name="organization" content="Open Knowledge España"/>
-        <link rel="canonical" href="http://jpd16.okfn.es/"/>
-        <meta name="description" content="Por cuarto año consecutivo, Open Knowledge España organiza la conferencia anual de Periodismo de Datos y Datos Abiertos.">
-        <meta itemprop="name" content="IV Jornadas de Periodismo de Datos 2016"/>
-        <meta itemprop="description" content="Por cuarto año consecutivo, Open Knowledge España organiza la conferencia anual de Periodismo de Datos y Datos Abiertos.">
-        <meta itemprop="image" content="http://jpd16.okfn.es/img/jpd16-share.png">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@jpdatos">
-        <meta name="twitter:title" content="IV Jornadas de Periodismo de Datos 2016"/>
-        <meta name="twitter:description" content="Por cuarto año consecutivo, Open Knowledge España organiza la conferencia anual de Periodismo de Datos y Datos Abiertos.">
-        <meta name="twitter:creator" content="@jpdatos">
-        <meta name="twitter:image" content="http://jpd16.okfn.es/img/jpd16-share.png">
-        <meta property="og:title" content="IV Jornadas de Periodismo de Datos 2016"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:url" content="http://jpd16.okfn.es/"/>
-        <meta property="og:image" content="http://jpd16.okfn.es/img/jpd16-share.png"/>
-        <meta property="og:description" content="Por cuarto año consecutivo, Open Knowledge España organiza la conferencia anual de Periodismo de Datos y Datos Abiertos."/>
-        <meta property="og:site_name" content="IV Jornadas de Periodismo de Datos 2016" />
+<head>
 
-        <link rel="icon" href="favicon.ico" type="image/x-icon" />
-        <title>IV Jornadas de Periodismo de Datos 2016 — JPD16</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="IV Jornadas de Periodismo de Datos 2016, JPD16">
+    <meta name="author" content="Open Knowledge España">
+       <link rel="icon" href="http://periodismodatos.okfn.es/wp-content/uploads/2015/04/pd_rn5.ico" type="image/x-icon" />
 
-        <link href="http://fonts.googleapis.com/css?family=Work+Sans:400|Roboto+Condensed:700" rel="stylesheet" type="text/css">
-        <link href="css/style.min.css" rel="stylesheet">
 
-        <!--<link href="css/vendor.css" rel="stylesheet">
-        <link href="css/main.css" rel="stylesheet">-->
+    <title>JPD16, Jornadas de Periodismo de Datos 2016</title>
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <body>
-        <nav class="header">
-            <div class="shareContainer hidden-xs hidden-sm">
-                <a class="shareButton shareButton--email u-white" href="mailto:?subject=Ap%C3%BAntate%20a%20las%20IV%20Jornadas%20de%20Periodismo%20de%20Datos&amp;body=http://jpd16.okfn.es"><svg id="mail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="currentcolor"><path d="M0 6 L16 16 L32 6 z M0 9 L0 26 L32 26 L32 9 L16 19 z"></path></svg></a>
-                <a class="shareButton shareButton--facebook u-white" target="_blank" href="https://www.facebook.com/sharer/sharer.php?href=Yo%20me%20apunto%20a%20las%20IV%20Jornadas%20de%20Periodismo%20de%20Datos!%20http://jpd16.okfn.es"><svg id="facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="currentcolor"><path d="M8 12 L13 12 L13 8 C13 2 17 1 24 2 L24 7 C20 7 19 7 19 10 L19 12 L24 12 L23 18 L19 18 L19 30 L13 30 L13 18 L8 18 z"></path></svg></a>
-                <a class="shareButton shareButton--twitter u-white" target="_blank" href="https://twitter.com/intent/tweet?text=Ap%C3%BAntate%20a%20las%20IV%20Jornadas%20de%20Periodismo%20de%20Datos!%20via%20@jpdatos%20%23periodismodatos%20http://jpd16.okfn.es"><svg id="twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="currentcolor"><path d="M2 4 C6 8 10 12 15 11 A6 6 0 0 1 22 4 A6 6 0 0 1 26 6 A8 8 0 0 0 31 4 A8 8 0 0 1 28 8 A8 8 0 0 0 32 7 A8 8 0 0 1 28 11 A18 18 0 0 1 10 30 A18 18 0 0 1 0 27 A12 12 0 0 0 8 24 A8 8 0 0 1 3 20 A8 8 0 0 0 6 19.5 A8 8 0 0 1 0 12 A8 8 0 0 0 3 13 A8 8 0 0 1 2 4"></path></svg></a>
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">jpd16</span>.okfn.es
+                </a>
             </div>
-            <a class="mastheadLink" href="#" role="banner"><img class="img-responsive navbarImg" src="img/sponsors/okfn.svg"></a>
-            <div class="headerLinks">
-                <a class="headerLinks--link page-scroll" href="#presentacion">Presentación</a>
-                <a class="headerLinks--link page-scroll" href="#participa">Participa</a>
-                <a class="headerLinks--link page-scroll" href="#programa">Programa</a>
-                <a class="headerLinks--link page-scroll" href="#ponentes">Ponentes</a>
-                <a class="headerLinks--link page-scroll" href="#organizacion">Organización</a>
-                <a class="headerLinks--link page-scroll" href="#contacto">Contacto</a>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+		                        <li> <a class="page-scroll" href="#presentacion">Presentación</a> </li>
+                    <li> <a class="page-scroll" href="#participa">Participa</a> </li>
+                   <li> <a class="page-scroll" href="#programa">Programa</a> </li>               <li> <a class="page-scroll" href="#ponentes">Ponentes</a> </li> 
+                    <li> <a class="page-scroll" href="#organizacion">Organización</a> </li>
+                    <li> <a class="page-scroll" href="#map">Dónde</a> </li>
+                    <li> <a class="page-scroll" href="#contacto">Contacto</a> </li>
+                </ul>
             </div>
-        </nav>
-
-        <div class="container-fluid">
-            <section id="cover">
-                <div class="row">
-                    <div class="intro">
-                        <div class="col-md-6 col-center">
-                            <h1 class="introHeadline"><span class="u-red">IV Jornadas</span> de Periodismo <span class="u-red">de Datos</span></h1>
-                            <p class="introCopy p-b-1">Madrid, 5-7 mayo, <a class="link--inverse" href="http://medialab-prado.es/">Medialab-Prado</a></p>
-                            <a href="https://www.eventbrite.es/e/entradas-iv-jornadas-de-periodismo-de-datos-23199709957" class="btn btn-success btn-lg m-b-1"><i class="fa fa-check"></i> Inscríbete</a>
-                            <a href="#" class="btn btn-primary btn-lg disabled m-b-1"><i class="fa fa-calendar"></i> Programa</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="presentacion">
-                <div class="row">
-                    <div class="summary p-t-4 p-b-4">
-                        <div class="col-md-7 col-center">
-                            <img class="img-responsive center-block m-b-2 hidden-xs lazy" data-src="img/logo.svg" alt="Banner IV Jornadas de Periodismo de Datos, 5-7 Mayo 2016, Madrid. El poder está en los datos, #jpd16"/>
-                            <img class="img-responsive center-block m-b-2 visible-xs lazy" data-src="img/logo-mobile.svg" alt="Banner IV Jornadas de Periodismo de Datos, 5-7 Mayo 2016, Madrid. El poder está en los datos, #jpd16"/>
-
-                            <noscript>
-                                <img class="img-responsive center-block m-b-2 hidden-xs" src="img/logo.svg" alt="Banner IV Jornadas de Periodismo de Datos, 5-7 Mayo 2016, Madrid. El poder está en los datos, #jpd16"/>
-                                <img class="img-responsive center-block m-b-2 visible-xs" src="img/logo-mobile.svg" alt="Banner IV Jornadas de Periodismo de Datos, 5-7 Mayo 2016, Madrid. El poder está en los datos, #jpd16"/>
-                            </noscript>
-
-                            <p class="text">Por cuarto año consecutivo, Open Knowledge España organiza la conferencia anual de Periodismo de Datos y Datos Abiertos.</p>
-            	            <p class="text m-b-2">En esta ocasión, la celebraremos solo en Madrid.</p>
-
-                            <div class="row columns">
-                    		    <div class="col-xs-6 u-borderRight">
-                                    <h3>Temas</h3>
-                    			    <ul class="summaryList">
-                    				    <li class="summaryDesc m-b-1">Periodismo de investigación</li>
-                    				    <li class="summaryDesc m-b-1">Visualización</li>
-                    				    <li class="summaryDesc m-b-1">Datos abiertos</li>
-                    				    <li class="summaryDesc m-b-1">Alfabetización digital</li>
-                    				    <li class="summaryDesc m-b-1">Seguridad y privacidad</li>
-                    			    </ul>
-                    		    </div>
-                    		    <div class="col-xs-6">
-                    			    <h3>Cómo</h3>
-                        			<ul class="summaryList">
-                        				<li class="summaryDesc m-b-1">Conferencias y charlas plenarias</li>
-                        				<li class="summaryDesc m-b-1">Talleres</li>
-                        				<li class="summaryDesc m-b-1">Mesas redondas</li>
-                        				<li class="summaryDesc m-b-1">Debates inclusivos</li>
-                        				<li class="summaryDesc m-b-1">Intercambio de saberes</li>
-                    			    </ul>
-                    		    </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="participa" class="m-b-4">
-                <div class="row">
-                    <div class="col-md-7 col-center m-t-4">
-                        <h2 class="text-center">¿Quieres participar?</h2>
-                        <hr class="separator">
-                        <p class="text">La asistencia es <b>abierta, libre y gratuita</b>. Sin embargo, conviene que te registres en Meetup porque el espacio es limitado. No te registres si tienes dudas acerca de la posibilidad de que puedas asistir finalmente.</p>
-                    </div>
-                </div>
-
-                <div class="flex-joinUs">
-                    <div class="joinUs one">
-                        <i class="fa fa-comments fa-3x"></i>
-                        <h3>Participa</h3>
-                        <p>Puedes proponer un taller, una charla, presentar un proyecto, hacer una demostración o compartir algo con lxs demás en el <a href="https://pad.okfn.org/p/jpd16-cfp">PAD</a>.</p>
-                    </div>
-
-                    <div class="joinUs two">
-                        <i class="fa fa-code fa-3x"></i>
-                        <h3>Colabora</h3>
-                        <p>Si quieres actualizar la web, ayudar en la organización del evento o hacer cualquier propuesta, tan solo tienes que escribirnos.</p>
-                    </div>
-
-                    <div class="joinUs three">
-                        <i class="fa fa-coffee fa-3x"></i>
-                        <h3>¿Hay que pagar?</h3>
-                        <p>Tú te pagas el viaje, el alojamiento y la comida. Las jornadas son gratis, libres, abiertas. Trae tu portátil o un bloc de notas, ¡sácale partido!</p>
-                    </div>
-                    <div class="joinUs four">
-                        <i class="fa fa-desktop fa-3x"></i>
-                        <h3>Asistencia remota</h3>
-                        <p>Las jornadas se grabarán y retransmitirán por <i>streaming</i>. Os pondremos la dirección URL a la que apuntar vuestro navegador o VLC</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-5 col-center text-center">
-                        <p class="text balance-text">Apúntate al <a class="link" href="http://www.meetup.com/es-ES/Madrid-Periodismo-de-datos-Meetup/events/229406917/">Meetup</a>, saca tu entrada en <a class="link" href="https://www.eventbrite.es/e/entradas-iv-jornadas-de-periodismo-de-datos-23199709957">Eventbrite</a> o colabora con la web en <a class="link" href="https://github.com/okfn-spain">Github</a>.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section id="programa">
-                <div class="row">
-                    <div class="schedule p-t-2 p-b-4">
-                        <div class="col-md-6 col-center">
-                            <h2>Programa</h2>
-                            <hr class="separator--inverse">
-                            <p class="text balance-text">Estamos trabajando para realizar un programa fabuloso, ¿quieres participar? <a class="link--inverse" href="https://pad.okfn.org/p/jpd16-cfp">Escribe tu propuesta en el PAD</a></p>
-            	        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="ponentes" class="p-b-2">
-                <div class="row">
-                    <div class="col-md-6 col-center text-center">
-                        <h2>Ponentes</h2>
-                        <hr class="separator">
-                    </div>
-                </div>
-
-                <div class="flex-speakers">
-                    <div class="speaker one">
-                        <img class="img-responsive img-circle speakerImg lazy" data-src="img/ponentes/kaeti.jpeg" alt="Kaeti Hinck">
-                        <noscript>
-                            <img class="img-responsive img-circle speakerImg" src="img/ponentes/kaeti.jpeg" alt="Kaeti Hinck">
-                        </noscript>
-                        <h3 class="speakerName"><a href="https://twitter.com/kaeti" class="link">Kaeti Hinck</a></h3>
-                        <p>Editora de datos del Washington Post (EE.UU.). Ha pasado por el equipo de datos del MinnPost y el INN, Institute for Nonprofit News.</p>
-                    </div>
-                    <div class="speaker two">
-                        <img class="img-responsive img-circle speakerImg lazy" data-src="img/ponentes/helena.jpg" alt="Helena Bengtsson">
-                        <noscript>
-                            <img class="img-responsive img-circle speakerImg" src="img/ponentes/helena.jpg" alt="Helena Bengtsson">
-                        </noscript>
-                        <h3 class="speakerName"><a href="https://twitter.com/helenabengtsson" class="link">Helena Bengtsson</a></h3>
-                        <p>Editora de datos en el Guardian. Pasó veinte años en Sveriges Television, la televisión nacional sueca y por el Center for Public Integrity en Washington, D.C.</p>
-                    </div>
-                    <div class="speaker three">
-                        <img class="img-responsive img-circle speakerImg lazy" data-src="img/ponentes/sandhya.jpg" alt="Sandhya Kambhampati">
-                        <noscript>
-                            <img class="img-responsive img-circle speakerImg" src="img/ponentes/sandhya.jpg" alt="Sandhya Kambhampati">
-                        </noscript>
-                        <h3 class="speakerName"><a href="https://twitter.com/sandhya__k" class="link">Sandhya Kambhampati</a></h3>
-                        <p>Fellow de Knight-Mozilla OpenNews en Correctiv.org (Alemania) y analista de datos en The Chronicle of Higher Education (EE.UU.).</p>
-                    </div>
-                    <div class="speaker four">
-                        <img class="img-responsive img-circle speakerImg lazy" data-src="img/ponentes/millan.jpg" alt="Millán Berzosa">
-                        <noscript>
-                            <img class="img-responsive img-circle speakerImg" src="img/ponentes/millan.jpg" alt="Millán Berzosa">
-                        </noscript>
-                        <h3 class="speakerName"><a href="https://twitter.com/mberzosa" class="link">Millán Berzosa</a></h3>
-                        <p>Doctor en Periodismo por la Complutense, periodista y profesor universitario, consultor de Google News Lab.</p>
-                    </div>
-                    <div class="speaker five">
-                        <img class="img-responsive img-circle speakerImg lazy" data-src="img/ponentes/marcos.png" alt="Marcos Vanetta">
-                        <noscript>
-                            <img class="img-responsive img-circle speakerImg" src="img/ponentes/marcos.png" alt="Marcos Vanetta">
-                        </noscript>
-                        <h3 class="speakerName"><a href="https://twitter.com/malev" class="link">Marcos Vanetta</a></h3>
-                        <p>Ex-fellow de Knight-Mozilla OpenNews en Texas Tribune, actualmente hacker en Continuum.io (EE.UU.)</p>
-                    </div>
-                    <div class="speaker six">
-                        <img class="img-responsive img-circle speakerImg lazy" data-src="img/ponentes/antonio.jpg" alt="Antonio Cucho">
-                        <noscript>
-                            <img class="img-responsive img-circle speakerImg" src="img/ponentes/antonio.jpg" alt="Antonio Cucho">
-                        </noscript>
-                        <h3 class="speakerName"><a href="https://twitter.com/antoniocuga" class="link">Antonio Cucho</a></h3>
-                        <p>Ex-fellow de School of Data, cofundador y periodista de datos en Ojo Público (Perú).</p>
-                    </div>
-                </div>
-
-                <div class="col-md-5 col-center">
-                    <p class="text text-center balance-text">Y toda la presencia de las distintas comunidades de datos, especialmente de lxs periodistas.</p>
-                </div>
-            </section>
-
-            <section id="organizacion">
-                <div class="row">
-                    <div class="org p-t-2 p-b-2">
-                        <div class="col-md-6 col-center text-center u-white">
-                            <h2>Organización</h2>
-                            <hr class="separator--inverse">
-                    		<p class="text balance-text">Las Jornadas no serían posibles sin la colaboración desinteresada de muchas personas como tú que quieren difundir el periodismo de datos.</p>
-                            <div class="row">
-                                <div class="col-md-6 col-center">
-                                    <h4>Comité organizador</h4>
-                                    <p class="balance-text"><a class="link--inverse" href="https://twitter.com/adolflow">Adolfo Antón Bravo</a>, <a class="link--inverse" href="https://twitter.com/mberzosa">Millán Berzosa</a>, <a class="link--inverse" href="https://twitter.com/cabralens">Mar Cabra</a>, <a class="link--inverse" href="https://twitter.com/adosc">Aleix Cabrera</a>, <a class="link--inverse" href="https://twitter.com/adelgado">Antonio Delgado</a>, <a class="link--inverse" href="https://twitter.com/pilarjlopez">Pilar López</a>, <a class="link--inverse" href="https://twitter.com/iamsortiz">Samuel Ortiz Reina</a>, <a class="link--inverse" href="https://twitter.com/kpeiro">Karma Peiró</a>, <a class="link--inverse" href="https://twitter.com/eli_vivas">Eli Vivas</a> y <a class="link--inverse" href="https://twitter.com/martgnz">Martín González</a>.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="patrocinadores">
-                <div class="row m-t-2 m-b-2">
-                    <div class="sponsors">
-                        <div class="col-md-6 col-center text-center">
-                            <h2>Patrocinadores</h2>
-                            <hr class="separator">
-            	            <p class="text balance-text">Si quieres patrocinar las jornadas, no dudes en ponerte en contacto con nosotrxs.</p>
-
-                            <div class="sponsorList">
-                	            <div class="sponsor">
-                                    <img class="sponsorLogo img-responsive u-fullWidth okfn lazy" data-src="img/sponsors/okfn.svg" alt="Open Knowledge España" />
-                                    <noscript>
-                                        <img class="sponsorLogo img-responsive u-fullWidth" src="img/sponsors/okfn.svg" alt="Open Knowledge España" />
-                                    </noscript>
-                                </div>
-                                <hr class="separator">
-                                <div class="sponsor">
-                                    <img class="sponsorLogo img-responsive u-fullWidth medialab lazy" data-src="img/sponsors/medialab.svg" alt="Medialab-Prado" />
-                                    <noscript>
-                                        <img class="sponsorLogo img-responsive u-fullWidth" src="img/sponsors/medialab.svg" alt="Medialab-Prado" />
-                                    </noscript>
-                                </div>
-                                <hr class="separator">
-                                <div class="sponsor">
-                                    <img class="sponsorLogo img-responsive opennews lazy" data-src="img/sponsors/opennews.png" alt="OpenNews" />
-                                    <noscript>
-                                        <img class="sponsorLogo img-responsive" src="img/sponsors/opennews.png" alt="OpenNews" />
-                                    </noscript>
-                                </div>
-                                <hr class="separator">
-                                <div class="sponsor">
-                                    <img class="sponsorLogo img-responsive google lazy" data-src="img/sponsors/google.jpg" alt="Google News Lab" />
-                                    <noscript>
-                                        <img class="sponsorLogo img-responsive" src="img/sponsors/google.jpg" alt="Google News Lab" />
-                                    </noscript>
-                                </div>
-                                <hr class="separator">
-                                <div class="sponsor">
-                                    <img class="sponsorLogo img-responsive schoolofdata lazy" data-src="img/sponsors/schoolofdata.png" alt="School of Data" />
-                                    <noscript>
-                                        <img class="sponsorLogo img-responsive" src="img/sponsors/schoolofdata.png" alt="School of Data" />
-                                    </noscript>
-                               </div>
-                           </div>
-            	        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="contacto">
-                <div class="row">
-                    <div class="contact p-t-2">
-                        <img class="staticMap lazy" data-src='https://api.mapbox.com/styles/v1/mapbox/dark-v8/static/-3.668381,40.408836,13/1250x150@2x?access_token=pk.eyJ1IjoibWFydGluZ256IiwiYSI6ImNpbGd2cG5tMTAwNWV3OGx6MHg1MmltYnQifQ.A6Fvtb7Sk_okvco9kuDziA' alt='Medialab-Prado'>
-                        <noscript>
-                            <img class="staticMap" src='https://api.mapbox.com/styles/v1/mapbox/dark-v8/static/-3.668381,40.408836,13/1250x150@2x?access_token=pk.eyJ1IjoibWFydGluZ256IiwiYSI6ImNpbGd2cG5tMTAwNWV3OGx6MHg1MmltYnQifQ.A6Fvtb7Sk_okvco9kuDziA' alt='Medialab-Prado'>
-                        </noscript>
-                        <div class="mapText col-md-4 col-center text-center u-white">
-                            <h2>Contacto</h2>
-                            <hr class="separator--inverse">
-                            <p>Puedes contactar con nosotros por <a class="link--inverse" href="mailto:periodismodatos@okfn.es">correo electrónico</a>, <a class="link--inverse" href="https://twitter.com/jpdatos">Twitter</a> o <a class="link--inverse" href="https://www.facebook.com/Jpd2016-1541942802770368/">Facebook</a>.</p>
-                            <footer class="footer p-b-3">
-                                <p class="m-0"><i class="fa fa-creative-commons"></i> Open Knowledge Spain, 2016.</p>
-                                <p class="m-0"><a class="link--inverse" href="https://github.com/OKFN-Spain/jpd16">Código fuente</a>.</p>
-                            </footer>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
+    </nav>
 
-        <script src="js/vendor.js"></script>
-        <script src="js/main.js"></script>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">IV Jornadas de Periodismo de Datos, JPD16</h1>
+                        <p class="intro-text">Madrid, 5-7 mayo, Medialab-Prado.</p>
+			<h2>Call for Participation</h2>
+			<p class="intro-text">Envía tu propuesta antes del 27 de marzo</p>
+                        <a href="#presentacion" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!-- Presentación -->
+    <section id="presentacion" class="container content-section text-center">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+	    <img class="img-responsive center-block" src="img/cabecera-960.png" alt="Banner IV Jornadas de Periodismo de Datos, 5-7 Mayo 2016, Madrid. El poder está en los datos, #jpd16"/><br /><br />
+              <h2>El poder está en los datos</h2>
+              <h4>Madrid, 5 -7 mayo 2016</h4>
+	    <p>Por cuarto año consecutivo, Open Knowledge España organiza la conferencia anual de Periodismo de Datos y Datos Abiertos.</p>
+	     <p>En esta ocasión, lo celebraremos solo en una ciudad, en Madrid.</p> 
 
-            ga('create', 'UA-75007513-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-    </body>
+		<div class="row">
+		  <div class="col-md-6">
+		    <h4>Temas</h4> 
+			    <ul>
+				<li>Periodismo de investigación</li>
+				<li>Visualización</li>
+				<li>Datos abiertos</li>
+				<li>Alfabetización digital</li>
+				<li>Seguridad y privacidad de las comunicaciones</li>
+			    </ul>
+		  </div>
+		  <div class="col-md-6"> 
+			    <h4>Cómo</h4>
+			    <ul>
+				<li>Conferencias</li>
+				<li>Talleres</li>
+				<li>Mesas redondas</li>
+				<li>Debates</li>
+				<li>Intercambio de saberes.</li>
+			    </ul>
+		  </div>
+		</div>
+<br /><br />
+                <a href="#participa" class="btn btn-circle page-scroll" style="border: 4px solid black !important;color:black"> <i class="fa fa-angle-double-down fa-inverse animated" style='color: black;'></i> </a>
+		
+            </div>
+        </div>
+    </section><!-- fin About -->
+
+    <!-- Sección Participa -->
+    <div class="black">
+    <section id="participa" class="content-section text-center">
+        <div class="download-section">
+
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>¿Quieres participar?</h2>
+
+<!-- 			<a href="#"><img src="https://www.eventbrite.es/custombutton?eid=16269024089" alt="Eventbrite - IV Jornadas de Periodismo de Datos" /></a><br />(proximamente)
+			</br>
+-->
+                    <p>La asistencia es <b>abierta, libre y gratuita</b>. Sin embargo, conviene que te registres en Meetup porque el espacio es limitado. No te registres si tienes serias dudas acerca de la posibilidad de que puedas asistir finalmente.</p>
+
+			<p></p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Call for Participation</h4>
+    			             <p>Puedes proponer un taller, una charla, presentar un proyecto, hacer una demostración o compartir algo con lxs demás en el <a href="https://pad.okfn.org/p/jpd16-cfp">PAD</a>.</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h4>Colabora</h4>
+    			             <p>Si quieres actualizar la web, ayudar en la organización del evento o hacer cualquier propuesta, tan solo tienes que escribirnos.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>¿Hay que pagar?</h4>
+    			             <p>Tú te pagas el viaje, el alojamiento, la comida y la bebida. Las jornadas son gratis, libres, abiertas. Trae tu portátil o un bloc de notas, sácale partido a la tecnología, sé hacker, sé periodista!</p>
+
+                        </div>
+                
+
+                        <div class="col-md-6">
+                            <h4>Asistencia remota</h4>
+    			             <p>Las jornadas se grabarán y retransmitirán por <i>streaming</i>. Os pondremos la dirección URL a la que apuntar vuestro navegador o VLC</p>
+
+                        </div>
+                    </div>
+		    <p>		    Apúntate al Meetup, saca tu entrada en Eventbrite o colabora con la web en Github:</p>
+		    <ul class="list-inline banner-social-buttons">
+		      <li><a href="http://www.meetup.com/es-ES/Madrid-Periodismo-de-datos-Meetup/events/229406917/" class="btn btn-default btn-lg"><i class="fa fa-group"></i> <span class="network-name">Meetup</span></a></li>
+		      <li><a href="https://www.eventbrite.es/e/entradas-iv-jornadas-de-periodismo-de-datos-23199709957" class="btn btn-default btn-lg"><i class="fa fa-calendar-check-o"></i> <span class="network-name">Eventbrite</span></a></li>
+	
+		      <li><a href="https://github.com/okfn-spain" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+		      </li>
+            
+		    </ul>
+
+
+
+                </div>
+            </div>
+	    <a href="#programa" class="btn btn-circle page-scroll" style="border: 4px solid white !important;color:white">
+	      <i class="fa fa-angle-double-down fa-inverse animated" style='color: white;'></i> </a>
+        <br>&nbsp;
+        </div>    
+    
+    </section>
+    </div>
+ <!-- Program Section -->
+    <section id="programa" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Programa</h2>
+                <p>Estamos trabajando para realizar un programa fabuloso, ¿quieres participar? <a href="https://pad.okfn.org/p/jpd16-cfp">Escribe tu propuesta en el PAD</a></p>
+	    </div>
+	    
+        </div>
+        <a href="#ponentes" class="btn btn-circle page-scroll" style="border: 4px solid black !important;color:black"> <i class="fa fa-angle-double-down fa-inverse animated" style='color: black;'></i> </a>
+
+        </div>
+    </section>
+    <!-- Ponentes Section -->
+    <section id="ponentes" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Ponentes</h2>
+
+		<p>Contamos con la presencia internacional de:</p>
+		<div class="col-md-6">
+		<ul>
+		  <li><strong>Kaeti Hinck</strong>, editora de datos del <em>Washington Post</em> (EE.UU.). Ha pasado por el equipo de datos del <em>MinnPost</em> y el <em>INN, Institute for Nonprofit News</em>.</li>
+		  <li><strong>Millán Berzosa</strong>, doctor en Periodismo por la Universidad Complutense de Madrid, licenciado en Derecho por la UNED y con formación de posgrado en Marketing y Finanzas, periodista y profesor universitario, consultor de Google News Lab.
+		  <li><strong>Marcos Vanetta</strong>, ex-fellow de <em>Knight-Mozilla OpenNews</em> en <em>Texas Tribune</em>,actualmente hacker en <em>Continuum.io</em> (EE.UU.)</li>
+	
+		</ul>
+
+		</div>
+		<div class="col-md-6">
+		  <ul>
+		    <li><strong>Helena Bengtsson</strong>, editora de datos en el Guardian. Anteriormente pasó veinte años en Sveriges Television, la televisión nacional sueca y por el Center for Public Integrity en Washington, D.C.</li>
+		  <li><strong>Sandhya Kambhampati</strong>, fellow de <em>Knight-Mozilla OpenNews</em> en <em>Correctiv.org</em> (Alemania).</li>
+		  <li><strong>Antonio Cucho</strong>, ex-fellow de <em>School of Data</em>, cofundador y periodista de datos en <em>Ojo Público</em> (Perú).</li>
+		</ul>
+		</div>
+		<div class="col-md-8">
+		<p>Y toda la presencia de las distintas comunidades de datos, especialmente de lxs periodistas de datos.</p>		
+		</div>
+            </div>
+	    
+        </div>
+        <a href="#organizacion" class="btn btn-circle page-scroll" style="border: 4px solid black !important;color:black"> <i class="fa fa-angle-double-down fa-inverse animated" style='color: black;'></i> </a>
+
+        </div>
+    </section>
+
+    <!-- Organización Section -->
+    <div class="black">
+      <section id="organizacion" class="container content-section text-center">
+
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Organización</h2>
+
+            		<p>Las Jornadas no serían posibles sin la colaboración desinteresada de muchas personas como tú que quiere difundir el periodismo de datos.</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                        <h4>Comité organizador</h4>
+                            <ul>
+                              <li>Adolfo Antón Bravo</li>
+			      <li>Millán Berzosa</li>
+			      <li>Mar Cabra</li>
+			      <li>Aleix Cabrera</li>
+			      <li>Antonio Delgado</li>
+			      <li>Pilar López</li>			      
+			      <li>Samuel Ortiz Reina</li>
+			      <li>Karma Peiró</li>
+			      <li>Eli Vivas</li>
+				
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                        <h4>Colaboran</h4>
+                            <ul>
+                              <li><a href="http://www.okfn.es">Open Knowledge España</a></li>
+			      <li><a href="http://medialab-prado.es">Medialab-Prado</a></li>
+			      <li><a href="http://opennews-org">Knight Mozilla Open News</a></li>
+			      <li><a href="http://newslab.withgoogle.com">Google News Lab</a></li>
+			      <li><a href="http://schoolofdata.org">School of Data</a></li>
+			    </ul>
+                        </div>
+                    </div>
+
+                    <a href="#patrocinadores" class="btn btn-circle page-scroll" style="border: 4px solid whitte !important;color:white !important"> <i class="fa fa-angle-double-down fa-inverse animated" style='color: white;'></i> </a>
+
+        </div>
+        </div>
+        </section>
+    </div>	
+
+
+    <!-- Patrocinadores Section -->
+    <section id="patrocinadores" class="container content-section text-center">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2>Patrocinadores</h2>
+
+	    <p>Si quieres patrocinar las jornadas, no dudes en ponerte en contacto con nosotrxs.</p>
+	<div>
+	  <img src="http://okfn.es/wp-content/themes/wordpress-theme-master/assets/img/okf-logo-header-2x.png" height="40" alt="Open Knowledge España" />
+	  <img src="http://medialab-prado.es/static/img/logo_mlp_web_rgb.png" height="40" alt="Medialab-Prado" />
+	  <img src="https://opennews.org/media/img/ONlogotype_wide2.png" height="40" alt="OpenNews" />
+	  <img src="https://newslab.withgoogle.com/assets/img/logo.png" height="40" alt="Google News Lab" />
+	  <img src="https://pbs.twimg.com/profile_images/2822971173/b9d550947c055919ea856bba60e2e5c5_400x400.png" alt="School of Data" height="40" />
+	</div>
+	<div>
+	  <br /><br /><a href="#contacto" class="btn btn-circle page-scroll" style="border: 4px solid black !important;color:black"> <i class="fa fa-angle-double-down fa-inverse animated" style='color: black;'></i> </a>
+	</div>
+	  </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+    <h2>Contacto</h2>
+
+    <p>Puedes contactar por correo, Twitter o Facebook:
+                
+      <ul class="list-inline banner-social-buttons">
+        <li><a href="mailto:periodismodatos@okfn.es" class="btn btn-default btn-lg"><i class="fa fa-cog fa-spain"></i> <span class="network-name">E-mail</span></a>
+        </li>
+        <li> <a href="https://twitter.com/jpdatos" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a> </li>
+	<li><a href="https://www.facebook.com/Jpd2016-1541942802770368/" class="btn btn-default btn-lg"><i class="fa fa-facebook"></i> <span class="network-name">FB</span></a></li>
+            
+      </ul>
+      
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map">
+      <div id="map"></div>
+      </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyleft &copy; Open Knowledge Spain, adol@flowsta 2016</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Leaflet -->
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="http://maps.google.com/maps/api/js?v=3.2&sensor=false"></script>
+    <script src="js/Google.js"></script>
+    
+    <script>  
+        
+        var map = L.map('map').setView([40.41644,-3.69359], 15);
+        
+        // add a marker in the given location, attach some popup content to it and open the popup
+	    // note that the street numbering is a bit odd: the actual entry is at the round part of the building (NE corner)
+        L.marker([40.41044, -3.69359]).addTo(map)
+            .bindPopup('Medialab-Prado')
+            .openPopup();    
+//	L.marker([40.42043,-3.70222]).addTo(map)
+//	.bindPopup('Fundación Telefonica')
+        map.scrollWheelZoom.disable();
+
+        // add Google layer
+        var googleLayer = new L.Google('ROADMAP');
+        map.addLayer(googleLayer);       
+        
+    </script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+    <!-- Google -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75007513-1', 'auto');
+  ga('send', 'pageview');
+
+    </script>
+</body>
+
 </html>
