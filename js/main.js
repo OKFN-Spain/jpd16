@@ -1,6 +1,6 @@
 $( document ).ready(function() {
     // balance text
-    $('.introHeadline').balanceText();
+    $('.introHeadline, .introCopy').balanceText();
 
     // lazyload images
     $(".lazy").unveil(200, function() {
