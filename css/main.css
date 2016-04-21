@@ -7,6 +7,9 @@ html {
 body {
     font-family: "Work Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
+h4 {
+    margin-bottom: 0.5rem;
+}
 .col-center {
     margin: 0 auto;
     float: none;
@@ -25,6 +28,9 @@ body {
 }
 .m-b-4 {
     margin-bottom: 4rem;
+}
+.m-t-0 {
+    margin-top: 0;
 }
 .m-t-1 {
     margin-top: 1rem;
@@ -129,8 +135,8 @@ body {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-image: -webkit-linear-gradient(0deg, transparent 0, rgba(0, 0, 0, 0.8) 100%);
-    background-image: linear-gradient(0deg, transparent 0, rgba(0, 0, 0, 0.8) 100%);
+    background-image: -webkit-linear-gradient(0deg, transparent 0, rgba(0, 0, 0, 0.6) 100%);
+    background-image: linear-gradient(0deg, transparent 0, rgba(0, 0, 0, 0.6) 100%);
 }
 .navbarImg {
     height: 50px;
@@ -170,6 +176,7 @@ body {
     justify-content: center;
     text-align: center;
     background: url(/img/cover.jpg) no-repeat bottom center scroll;
+    background-position: bottom;
     background-size: cover;
     color: rgb(255,255,255);
 }
@@ -179,14 +186,27 @@ body {
     font-size: 3rem;
     padding-top: 2rem;
     line-height: 0.9;
+    text-shadow: 0px 2px 15px rgba(0,0,0,0.8);
 }
 .introCopy {
     font-size: 1.5rem;
+    text-shadow: 0px 2px 15px rgba(0,0,0,0.8);
+}
+.introCredit {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+}
+.btn {
+    transition: 0.2s
+}
+.btn:hover {
+    transform: translateY(2px);
 }
 .summary {
     background: #ECE9E6; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to bottom, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .text {
     font-size: 2rem;
@@ -200,16 +220,74 @@ body {
     padding-left: 0;
     font-size: 1.5rem;
 }
+
+/*
+* Schedule
+*/
 .schedule {
-    background: #1A2980; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #1A2980 , #26D0CE); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #1A2980 , #26D0CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    background: #5C258D; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left top, #5C258D , #4389A2); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left top, #5C258D , #4389A2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: rgb(255,255,255);
+    display: block;
 }
+.scheduleDay {
+    font-weight: 500;
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(220,220,220,0.2);
+}
+.scheduleLegend {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.timeSlot {
+    margin-bottom: 1rem;
+}
+.place {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+}
+.break {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    border-top: 1px solid rgba(220,220,220,0.1);
+    border-bottom: 1px solid rgba(220,220,220,0.1);
+}
+.circle {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+.talk {
+    background: rgb(26, 41, 128);
+}
+.roundTable {
+    background: rgb(255, 220, 0);
+}
+.workshop {
+    background: rgb(236, 61, 42);
+}
+.barcamp {
+    background: rgb(243, 161, 131)
+}
+
+/*
+* Speakers
+*/
 .flex-joinUs,
 .flex-speakers {
     display: flex;
@@ -223,8 +301,15 @@ body {
     padding: 1.5rem;
     flex-basis: 385px;
 }
+.speaker {
+    text-align: center;
+}
+.speaker p {
+    text-align: left;
+}
 .speakerImg {
     max-width: 100px;
+    margin: 0 auto;
 }
 .speakerName {
     color: #1E5E99;
@@ -236,16 +321,13 @@ body {
 }
 .sponsorList {
     padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 .sponsor {
-    padding: 1rem;
+    padding: 2rem;
 }
 .sponsorLogo {
     max-height: 60px;
+    margin: 0 auto;
 }
 .okfn {
     width: 300px;
@@ -273,6 +355,9 @@ body {
 * Tablet
 */
 @media(min-width: 768px) {
+    .rightSeparator {
+        border-right: 1px solid rgba(220,220,220,0.1);
+    }
     .mastheadLink {
         margin: 0;
     }
