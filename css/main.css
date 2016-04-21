@@ -321,17 +321,13 @@ h4 {
 }
 .sponsorList {
     padding: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 .sponsor {
-    padding: 1rem;
+    padding: 2rem;
 }
 .sponsorLogo {
     max-height: 60px;
+    margin: 0 auto;
 }
 .okfn {
     width: 300px;
@@ -359,9 +355,6 @@ h4 {
 * Tablet
 */
 @media(min-width: 768px) {
-    .sponsorList {
-        flex-wrap: nowrap;
-    }
     .rightSeparator {
         border-right: 1px solid rgba(220,220,220,0.1);
     }
