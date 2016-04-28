@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="index,follow,noodp"/>
+        <meta name="organization" content="Open Knowledge España"/>
+        <link rel="canonical" href="http://jpd16.okfn.es/"/>
+        <meta name="description" content="Por cuarto año consecutivo, Open Knowledge España organiza la conferencia anual de Periodismo de Datos y Datos Abiertos.">
+        <meta itemprop="name" content="IV Jornadas de Periodismo de Datos 2016"/>
+        <meta itemprop="description" content="Por cuarto año consecutivo, Open Knowledge España organiza la conferencia anual de Periodismo de Datos y Datos Abiertos.">
+        <meta itemprop="image" content="http://jpd16.okfn.es/img/jpd16-share.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@jpdatos">
+        <meta name="twitter:title" content="IV Jornadas de Periodismo de Datos 2016"/>
+        <meta name="twitter:description" content="Por cuarto año consecutivo, Open Knowledge España organiza la conferencia anual de Periodismo de Datos y Datos Abiertos.">
+        <meta name="twitter:creator" content="@jpdatos">
+        <meta name="twitter:image" content="http://jpd16.okfn.es/img/jpd16-share.png">
+        <meta property="og:title" content="IV Jornadas de Periodismo de Datos 2016"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="http://jpd16.okfn.es/"/>
+        <meta property="og:image" content="http://jpd16.okfn.es/img/jpd16-share.png"/>
+        <meta property="og:description" content="Por cuarto año consecutivo, Open Knowledge España organiza la conferencia anual de Periodismo de Datos y Datos Abiertos."/>
+        <meta property="og:site_name" content="IV Jornadas de Periodismo de Datos 2016" />
+
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <title>IV Jornadas de Periodismo de Datos 2016 — JPD16</title>
+
+        <link href="http://fonts.googleapis.com/css?family=Work+Sans:400,500|Roboto+Condensed:700" rel="stylesheet" type="text/css">
+        <link href="css/style.min.css" rel="stylesheet">
+
+        <!--<link href="css/vendor.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">-->
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <nav class="header">
+            <div class="shareContainer hidden-xs hidden-sm">
+                <a class="shareButton shareButton--email u-white" href="mailto:?subject=Ap%C3%BAntate%20a%20las%20IV%20Jornadas%20de%20Periodismo%20de%20Datos&amp;body=http://jpd16.okfn.es"><svg id="mail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="currentcolor"><path d="M0 6 L16 16 L32 6 z M0 9 L0 26 L32 26 L32 9 L16 19 z"></path></svg></a>
+                <a class="shareButton shareButton--facebook u-white" target="_blank" href="https://www.facebook.com/sharer/sharer.php?href=Yo%20me%20apunto%20a%20las%20IV%20Jornadas%20de%20Periodismo%20de%20Datos!%20http://jpd16.okfn.es"><svg id="facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="currentcolor"><path d="M8 12 L13 12 L13 8 C13 2 17 1 24 2 L24 7 C20 7 19 7 19 10 L19 12 L24 12 L23 18 L19 18 L19 30 L13 30 L13 18 L8 18 z"></path></svg></a>
+                <a class="shareButton shareButton--twitter u-white" target="_blank" href="https://twitter.com/intent/tweet?text=Ap%C3%BAntate%20a%20las%20IV%20Jornadas%20de%20Periodismo%20de%20Datos!%20via%20@jpdatos%20%23periodismodatos%20http://jpd16.okfn.es"><svg id="twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="currentcolor"><path d="M2 4 C6 8 10 12 15 11 A6 6 0 0 1 22 4 A6 6 0 0 1 26 6 A8 8 0 0 0 31 4 A8 8 0 0 1 28 8 A8 8 0 0 0 32 7 A8 8 0 0 1 28 11 A18 18 0 0 1 10 30 A18 18 0 0 1 0 27 A12 12 0 0 0 8 24 A8 8 0 0 1 3 20 A8 8 0 0 0 6 19.5 A8 8 0 0 1 0 12 A8 8 0 0 0 3 13 A8 8 0 0 1 2 4"></path></svg></a>
+            </div>
+            <a class="mastheadLink" href="http://okfn.es/" role="banner"><img class="img-responsive navbarImg" src="img/sponsors/okfn.svg"></a>
+            <div class="headerLinks">
+                <a class="headerLinks--link page-scroll" href="#presentacion">Presentación</a>
+                <a class="headerLinks--link page-scroll" href="#participa">Participa</a>
+                <a class="headerLinks--link page-scroll" href="#programa">Programa</a>
+                <a class="headerLinks--link page-scroll" href="#ponentes">Ponentes</a>
+                <a class="headerLinks--link page-scroll" href="#organizacion">Organización</a>
+		<a class="headerLinks--link page-scroll" href="http://periodismodatos.okfn.es">Ediciones anteriores</a>
+                <a class="headerLinks--link page-scroll" href="#contacto">Contacto</a>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <section id="cover">
+                <div class="row">
+                    <div class="intro">
+                        <div class="col-md-6 col-center">
+                            <h1 class="introHeadline"><span class="u-red">IV Jornadas</span> de Periodismo <span class="u-red">de Datos</span></h1>
+                            <p class="introCopy p-b-1">Madrid, 5-7 mayo, <a class="link--inverse" href="http://medialab-prado.es/">Medialab-Prado</a> y <a href="https://espacio.fundaciontelefonica.com/" class="link--inverse">Fundación Telefónica</a></p>
+                            <a href="https://www.eventbrite.es/e/entradas-iv-jornadas-de-periodismo-de-datos-23199709957" class="btn btn-success btn-lg m-b-1"><i class="fa fa-check"></i> Inscríbete</a>
+                            <a href="#programa" class="btn btn-primary btn-lg m-b-1"><i class="fa fa-calendar"></i> Programa</a>
+                        </div>
+                        <span class="introCredit">José Pestana / <a class="link--inverse" href="https://www.flickr.com/photos/jpestana/24100206554/">Flickr</a></span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="presentacion">
+                <div class="row">
+                    <div class="summary p-t-4 p-b-4">
+                        <div class="col-md-7 col-center">
+                            <img class="img-responsive center-block m-b-2 hidden-xs lazy" data-src="img/logo.svg" alt="Banner IV Jornadas de Periodismo de Datos, 5-7 Mayo 2016, Madrid. El poder está en los datos, #jpd16"/>
+                            <img class="img-responsive center-block m-b-2 visible-xs lazy" data-src="img/logo-mobile.svg" alt="Banner IV Jornadas de Periodismo de Datos, 5-7 Mayo 2016, Madrid. El poder está en los datos, #jpd16"/>
+
+                            <noscript>
+                                <img class="img-responsive center-block m-b-2 hidden-xs" src="img/logo.svg" alt="Banner IV Jornadas de Periodismo de Datos, 5-7 Mayo 2016, Madrid. El poder está en los datos, #jpd16"/>
+                                <img class="img-responsive center-block m-b-2 visible-xs" src="img/logo-mobile.svg" alt="Banner IV Jornadas de Periodismo de Datos, 5-7 Mayo 2016, Madrid. El poder está en los datos, #jpd16"/>
+                            </noscript>
+
+                            <p class="text text-center">Por cuarto año consecutivo, <a href="http://okfn.es/" class="link">Open Knowledge España</a> organiza la conferencia anual de Periodismo de Datos y Datos Abiertos.</p>
+                            <p class="text m-b-2 text-center">En esta ocasión, la celebraremos solo en Madrid (<a href="http://periodismodatos.okfn.es/" class="link">ediciones pasadas</a>).</p>
+
+                            <div class="row columns">
+                    		    <div class="col-xs-6 u-borderRight">
+                                    <h3>Temas</h3>
+                    			    <ul class="summaryList">
+                    				    <li class="summaryDesc m-b-1">Periodismo de investigación</li>
+                    				    <li class="summaryDesc m-b-1">Visualización</li>
+                    				    <li class="summaryDesc m-b-1">Datos abiertos</li>
+                    				    <li class="summaryDesc m-b-1">Alfabetización digital</li>
+                    				    <li class="summaryDesc m-b-1">Seguridad y privacidad</li>
+                    			    </ul>
+                    		    </div>
+                    		    <div class="col-xs-6">
+                    			    <h3>Cómo</h3>
+                        			<ul class="summaryList">
+                        				<li class="summaryDesc m-b-1">Conferencias y charlas plenarias</li>
+                        				<li class="summaryDesc m-b-1">Talleres</li>
+                        				<li class="summaryDesc m-b-1">Mesas redondas</li>
+                        				<li class="summaryDesc m-b-1">Debates inclusivos</li>
+                        				<li class="summaryDesc m-b-1">Intercambio de saberes</li>
+                    			    </ul>
+                    		    </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="participa" class="m-b-4">
+                <div class="row">
+                    <div class="col-md-7 col-center m-t-4">
+                        <h2 class="text-center">¿Quieres participar?</h2>
+                        <hr class="separator">
+                        <p class="text">La asistencia es <b>abierta, libre y gratuita</b>. Sin embargo, conviene que te registres en Meetup porque el espacio es limitado. No te registres si tienes dudas acerca de la posibilidad de que puedas asistir finalmente.</p>
+                    </div>
+                </div>
+
+                <div class="flex-joinUs text-center">
+                    <div class="joinUs one">
+                        <i class="fa fa-comments fa-3x"></i>
+                        <h3>Participa</h3>
+                        <p class="text-left">Puedes proponer un taller, una charla, presentar un proyecto, hacer una demostración o compartir algo con lxs demás en el <a href="https://pad.okfn.org/p/jpd16-cfp">PAD</a>.</p>
+                    </div>
+
+                    <div class="joinUs two">
+                        <i class="fa fa-code fa-3x"></i>
+                        <h3>Colabora</h3>
+                        <p class="text-left">Si quieres actualizar la web, ayudar en la organización del evento o hacer cualquier propuesta, tan solo tienes que escribirnos.</p>
+                    </div>
+
+                    <div class="joinUs three">
+                        <i class="fa fa-coffee fa-3x"></i>
+                        <h3>¿Hay que pagar?</h3>
+                        <p class="text-left">Tú te pagas el viaje, el alojamiento y la comida. Las jornadas son gratis, libres, abiertas. Trae tu portátil o un bloc de notas, ¡sácale partido!</p>
+                    </div>
+                    <div class="joinUs four">
+                        <i class="fa fa-desktop fa-3x"></i>
+                        <h3>Asistencia remota</h3>
+                        <p class="text-left">Las jornadas se grabarán y retransmitirán por <i>streaming</i>. Os pondremos la dirección URL a la que apuntar vuestro navegador o VLC</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 col-center text-center">
+                        <p class="text balance-text">Saca tu entrada en <a class="link" href="https://www.eventbrite.es/e/entradas-iv-jornadas-de-periodismo-de-datos-23199709957">Eventbrite</a>, únete al <a class="link" href="http://www.meetup.com/es-ES/Madrid-Periodismo-de-datos-Meetup/events/229406917/">Meetup</a> si quieres estar al tanto, o colabora  en <a class="link" href="https://github.com/OKFN-Spain/jpd16/">Github</a>.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="programa">
+                <div class="row">
+                    <div class="schedule p-t-2 p-b-4">
+                        <div class="col-md-8 col-center">
+                            <h2 class="text-center">Programa</h2>
+                            <hr class="separator--inverse">
+                            <div class="text-center m-b-2">
+                                <h4 class="scheduleLegend"><span class="circle talk"></span> Charla</h4>
+                                <h4 class="scheduleLegend"><span class="circle workshop"></span> Taller</h4>
+                                <h4 class="scheduleLegend"><span class="circle roundTable"></span> Mesa redonda</h4>
+                                <h4 class="scheduleLegend"><span class="circle barcamp"></span> Barcamp</h4>
+                            </div>
+			    <hr class="separator--inverse">
+			    <p class="text">Auditorio, Alameda0 y Cantina son tres salas del mismo espacio, Medialab-Prado.</p>
+			    
+
+                            <header class="scheduleDay m-b-1">Jueves 5 mayo</header>
+                            <div class="row">
+                                <time class="col-xs-12 col-md-2 place">Medialab Prado</time>
+                              <div class="col-xs-12 col-md-10 place">Alameda 0</div>
+                            </div>
+
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">9.30 — 10.00</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Recepción</h4>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">10.00 — 10.10</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Presentación</h4>
+                                    <p>Adolfo Antón Bravo</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">10.10 — 10.35</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Qué es periodismo de datos <span class="circle talk"></span></h4>
+                                    <p>Adolfo Antón Bravo, Pilar López</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">10.40 — 11.10</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">De Wikileaks a los papeles de Panamá, periodismo de datos en España <span class="circle talk"></span></h4>
+                                    <p>Karma Peiró (Nació Digital)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">11.15 — 12.30</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Iniciativas de formación en Periodismo de Datos <span class="circle roundTable"></span></h4>
+                                    <p>Moderada por Adolfo Antón Bravo (Open Knowledge España) con Marcos García-Rey (Unidad Editorial/URJC), José Jesús García Rueda (U-TAD), Ernesto Villar (Centro Universitario Villanueva), Antonio Cucho (School of Data, Escuela de Datos), Big Data University (IBM)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">12.40 — 13.40</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Infografía y visualización de datos con Software Libre <span class="circle workshop"></span></h4>
+                                    <p>Isidro Jiménez Gómez (El Salmón Contracorriente)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">13.45 — 14.45</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">¿Como crear y organizar bases de datos? <span class="circle workshop"></span></h4>
+                                    <p>Antonio Cucho (Ojo Público)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot break">
+                                <time class="col-xs-12 col-md-2">14.45 — 16.30</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0"><i>Comida</i> 🍔🍕🍉</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                              <time class="col-xs-12 col-md-2 place">Fundación Telefónica</time>
+			      <div class="col-xs-12 col-md-10 place">Anfiteatro</div>
+							    
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">17.30 — 17.55</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Recepción</h4>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">17.55 — 18.00</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Presentación <span class="circle talk"></span></h4>
+                                    <p>Rosa María Sainz Peña, Adolfo Antón Bravo</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">18.00 — 18.35</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Visualización de datos en el <i>Washington Post</i> <span class="circle talk"></span></h4>
+                                    <p>Kaeti Hinck (The Washington Post)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">18.30 — 19.00</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Periodismo de datos en el <i>The Guardian</i> <span class="circle talk"></span></h4>
+                                    <p>Helena Bengtsson (The Guardian)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">19.15 — 20.30</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">El periodismo de datos a ambos lados del Atlántico <span class="circle roundTable"></span></h4>
+                                    <p>Moderada por Millán Berzosa (Google News Lab), con Kaeti Hinck, Antonio Cucho (Ojo Público, Perú), Helena Bengtsson, Hugo Garrido (El Mundo), Borja Bergareche (Vocento), Karma Peiró (Nació Digital)</p>
+                                </div>
+                            </div>
+
+                            <header class="scheduleDay m-b-1">Viernes 6 mayo</header>
+			    
+                            <div class="row">
+                              <time class="col-xs-12 col-md-2 place">Medialab Prado</time>
+			      <div class="col-xs-12 col-sm-6 col-md-10 place">Auditorio</div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">10.00 — 11.15</time>
+                                <div class="col-xs-12 col-sm-6 col-md-10">
+                                    <h4 class="m-t-0">Los Papeles de Panamá <span class="circle roundTable"></span></h4>
+                                    <p>Moderada por Mar Cabra (ICIJ), con Marcos García-Rey (ICIJ), Ignacio Calle (La Sexta) y Daniele Grasso (El Confidencial)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">11.30 — 12.45</time>
+                                <div class="col-xs-12 col-sm-6 col-md-10">
+                                    <h4 class="m-t-0">Datos y procesos creativos <span class="circle workshop"></span></h4>
+                                    <p>Julián Pérez Romero (Medialab-Prado)</p>
+                                </div>
+
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">13.00 — 14.30</time>
+                                <div class="col-xs-12 col-sm-6 col-md-10">
+                                    <h4 class="m-t-0">Google News Lab: Search y Trends <span class="circle workshop"></span></h4>
+                                    <p>Millán Berzosa (Google News Lab)</p>
+                                </div>
+                            </div>
+			    <!-- fin viernes mañana auditorio -->
+			    <!-- inicio viernes mañana alameda0 -->
+			    <div class="row col-xs-12">
+			      <hr class="separator--inverse col-xs-12">
+			    </div>
+                            <div class="row">
+
+							  
+                              <time class="col-xs-12 col-md-2 place">Medialab Prado</time>
+			      <div class="col-xs-12 col-sm-6 col-md-10 place">Alameda 0</div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">10.00 — 11.15</time>
+                                <div class="col-xs-12 col-sm-6 col-md-10">
+                                    <h4 class="m-t-0">DataTables Workshop <span class="circle workshop"></span></h4>
+                                    <p>Miguel Fiandor (ICIJ)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">11.30 — 12.45</time>
+                                <div class="col-xs-12 col-sm-6 col-md-10">
+                                    <h4 class="m-t-0">Plataformas en la nube <span class="circle workshop"></span></h4>
+                                    <p>Mar Cabra (ICIJ), Miguel Fiandor (ICIJ)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">13.00 — 14.30</time>
+                                <div class="col-xs-12 col-sm-6 col-md-10">
+                                    <h4 class="m-t-0">Structure and analyse data <span class="circle workshop"></span></h4>
+                                    <p>Helena Bengtsson (The Guardian)</p>
+                                </div>
+                            </div>
+
+			    <!-- fin viernes mañana alameda0 -->
+			    
+                            <div class="row timeSlot break">
+                                <time class="col-xs-12 col-md-2">14.30 — 15.30</time>
+                                <div class="col-xs-12 col-md-5">
+                                    <h4 class="m-t-0"><i>CartoDB Lunch Time </i> 🍕🌍</h4>
+                                </div>
+				<div class="col-xs-12 col-sm-6 col-md-5 place">Cantina de Medialab-Prado</div>
+                            </div>
+			    <!-- inicio viernes tarde auditorio -->
+                            <div class="row">
+                              <time class="col-xs-12 col-md-2 place">Medialab Prado</time>
+			      <div class="col-xs-12 col-sm-6 col-md-10 place">Auditorio</div>
+			      
+                            </div>
+			    
+			    <div class="row timeSlot">
+                              <time class="col-xs-12 col-md-2">15.30 — 16.00</time>
+                              <div class="col-xs-12 col-md-10">
+                                <h4 class="m-t-0">Big Data en la era cognitiva <span class="circle talk"></span></h4>
+                                <p>Victoria Gómez Fernández (IBM)</p>
+                              </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">16.10 — 16.45</time>
+                                <div class="col-xs-12 col-md-10">
+                                  <h4 class="m-t-0">Cómo los datos cambian la manera de hacer negocio <span class="circle talk"></span></h4>
+                                  <p>Rafael Mastroianni (PriceSoft)</p>
+                                </div>
+                            </div>
+
+							
+                            <div class="row timeSlot">
+                              <time class="col-xs-12 col-md-2">17.00 — 18.30</time>
+                              <div class="col-xs-12 col-md-10">
+                                <h4 class="m-t-0">Introducción a CartoDB para periodistas <span class="circle workshop"></span></h4>
+                                <p>Ramiro Aznar (CartoDB)</p>
+                                </div>
+                            </div>
+			    <div class="row timeSlot">
+                              <time class="col-xs-12 col-md-2">18.40 — 20.10</time>
+                              <div class="col-xs-12 col-md-10">
+                                <h4 class="m-t-0">Primeros pasos con Python <span class="circle workshop"></span></h4>
+                                <p>Marcos Vanetta (Open News)</p>
+                              </div>
+                            </div>
+
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">20.15 — 20.55</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Obtención, clasificación y centralización de noticias mediante RSS <span class="circle talk"></span></h4>
+                                    <p>Jesús Cuesta Arza</p>
+                                </div>
+                            </div>
+			    <!-- fin viernes tarde auditorio -->
+			    <!-- inicio viernes tarde alameda0 -->
+			    <div class="row col-xs-12">
+			      <hr class="separator--inverse col-xs-12">
+			    </div>
+
+                            <div class="row">
+			      		
+			      <time class="col-xs-12 col-md-2 place">Medialab Prado</time>
+			      <div class="col-xs-12 col-sm-6 col-md-10 place">Alameda0</div>
+						      
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">15.30 — 16.00</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Jupyter notebook como herramienta de divulgación <span class="circle workshop"></span></h4>
+                                    <p>Juan Luis Cano</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">16.05 — 16.55</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Mapas con D3 y Spam.js <span class="circle workshop"></span></h4>
+                                    <p>Martín González</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">17.00 — 18.30</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Taller avanzado de CartoDB para periodistas <span class="circle workshop"></span></h4>
+                                    <p>Ernesto Martínez Becerra (CartoDB)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">18.35 — 18.55</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Fresh News from CartoDB <span class="circle barcamp"></span></h4>
+                                    <p>Erik Escoffier (CartoDB)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">19.00 — 19.15</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">MWC360º, el primer proyecto VR de El Periódico <span class="circle barcamp"></span></h4>
+                                    <p>María Maicas (El Periódico)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">19.15 — 19.30</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Subvenciones del plátano canario <span class="circle barcamp"></span></h4>
+                                    <p>Raúl Sánchez González</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">19.30 — 19.45</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Así funciona el fraude fiscal de las SICAV en España <span class="circle barcamp"></span></h4>
+                                    <p>Nicolás Pérez Iguarán</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">19.45 — 20.00</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Defensa oculta compras por casi 30 millones a una empresa relacionada con Morenés <span class="circle barcamp"></span></h4>
+                                    <p>Ximena Villagrán Barillas</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">20.00 — 20.15</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">El mercado negro de la vida salvaje <span class="circle barcamp"></span></h4>
+                                    <p>Montserrat Hidalgo Pérez, María Isabel Magaña Arango</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">20.15 — 20.30</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Hacks Hackers Barcelona <span class="circle barcamp"></span></h4>
+                                    <p>Martín González y Eli Vivas (HHBCN)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">20.30 — 20.45</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">El observatorio del sistema de salud de Cataluña <span class="circle barcamp"></span></h4>
+                                    <p>Anna García-Altés</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">20.45 — 21:00</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Journocoders Madrid <span class="circle barcamp"></span></h4>
+                                    <p>Adrián Blanco</p>
+                                </div>
+                            </div>
+
+                            <header class="scheduleDay m-b-1">Sábado 7 mayo</header>
+                            <div class="row">
+                              <time class="col-xs-12 col-md-2 place">Medialab Prado</time>
+			      <div class="col-xs-12 col-sm-6 col-md-10 place">Auditorio</div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">10.00 — 11.30</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Buenas prácticas en visualización de datos <span class="circle workshop"></span></h4>
+                                    <p>Kaeti Hinck (The Washington Post)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">11.45 — 13.00</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Expresiones regulares y scraping <span class="circle workshop"></span></h4>
+                                    <p>Miquel Serrabassa Lafont y Juan Manuel Gutiérrez Caballero (Nació Digital)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">13.15 — 14.30</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Data analysis with ggplot and R <span class="circle workshop"></span></h4>
+                                    <p>Sandhya Kambhampati (OpenNews Fellow / Correctiv)</p>
+                                </div>
+                            </div>
+
+			    <div class="row col-xs-12">
+			      <hr class="separator--inverse col-xs-12">
+			    </div>
+
+                            <div class="row">
+
+							  
+                              <time class="col-xs-12 col-md-2 place">Medialab Prado</time>
+			      <div class="col-xs-12 col-sm-6 col-md-10 place">Alameda 0</div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">10.00 — 11.00</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Transparencia y datos abiertos en Latinoamérica <span class="circle talk"></span></h4>
+                                    <p>Marianela Balbi</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">11.15 — 11.45</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Hay un elefante en la sala de datos <span class="circle talk"></span></h4>
+                                    <p>Lluís Esquerda</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">12.00 — 13.00</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Nuevos modelos de generación de valor <span class="circle workshop"></span></h4>
+                                    <p>Alex Rayón (Universidad de Deusto) y Jon Goikoetxea (Deia y Grupo Noticias)</p>
+                                </div>
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">13.15 — 14.30</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">De los datos al conocimiento <span class="circle workshop"></span></h4>
+                                    <p>Ignasi Alcalde</p>
+                                </div>
+                            </div>
+
+                            <div class="row timeSlot break">
+                                <time class="col-xs-12 col-md-2">14.30 — 15.30</time>
+                                <div class="col-xs-12 col-md-5">
+                                    <h4 class="m-t-0"><i>CartoDB Lunch Time </i> 🗺🍕🌍</h4>
+                                </div>
+				<div class="col-xs-12 col-sm-6 col-md-5 place">Cantina de Medialab Prado</div>
+                            </div>
+			    <!-- inicio sábado tarde auditorio -->
+                            <div class="row">
+                              <time class="col-xs-12 col-md-2 place">Medialab Prado</time>
+			      <div class="col-xs-12 col-sm-6 col-md-10 place">Auditorio</div>
+                            </div>
+
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">15.30 — 16.30</time>
+                                <div class="col-xs-12 col-sm-6 col-md-10">
+                                    <h4 class="m-t-0">La curación de contenidos <span class="circle workshop"></span></h4>
+                                    <p>Amaranta Martín (Centro Universitario Villanueva)</p>
+                                </div>
+
+
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">16.45 — 17.45</time>
+                                <div class="col-xs-12 col-sm-6 col-md-10">
+                                    <h4 class="m-t-0">Di hola a R, o cómo sobrevivir sin Excel en el día a día <span class="circle workshop"></span></h4>
+                                    <p>Martín González</p>
+                                </div>
+
+
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">18.00 — 19.00</time>
+                                <div class="col-xs-12 col-sm-6 col-md-10">
+                                    <h4 class="m-t-0">Errores frecuentes en la interpretación de las estadísticas oficiales <span class="circle talk"></span></h4>
+                                    <p>Juan Francisco Caro (Allisdata)</p>
+                                </div>
+
+				
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">19.15 — 20.45</time>
+                                <div class="col-xs-12 col-md-10">
+                                    <h4 class="m-t-0">Clausura: desconferencia, quiénes somos, de dónde venimos, a dónde vamos</h4>
+                                    <p>Adolfo Antón Bravo</p>
+                                </div>
+                            </div>
+			    <!-- fin sábado tarde auditorio -->
+			    <!-- inicio sábado tarde alameda0 -->
+			    <div class="row col-xs-12">
+			      <hr class="separator--inverse col-xs-12">
+			    </div>
+
+                            <div class="row">
+                              <time class="col-xs-12 col-md-2 place">Medialab Prado</time>
+			      <div class="col-xs-12 col-sm-6 col-md-10 place">Alameda0</div>
+
+                            </div>
+
+
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">15.30 — 16.30</time>
+				<div class="col-xs-12 col-sm-6 col-md-10">
+                                  <h4 class="m-t-0">Monitorización de medios <span class="circle talk"></span></h4>
+                                  <p>Pablo Rey Mazón (Numeroteca)</p>
+                                </div>
+
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">16.45 — 17.45</time>
+				<div class="col-xs-12 col-sm-6 col-md-10">
+                                  <h4 class="m-t-0">Periodismo de datos en Alemania: BR Data <span class="circle talk"></span></h4>
+                                  <p>Maximilian Zierer (Bayerischer Rundfunk Data)</p>
+                                </div>
+
+                            </div>
+                            <div class="row timeSlot">
+                                <time class="col-xs-12 col-md-2">18.00 — 19.00</time>
+			        <div class="col-xs-12 col-sm-6 col-md-10">
+                                  <h4 class="m-t-0">El periodismo de filtraciones en España: los cambios en las redacciones <span class="circle talk"></span></h4>
+                                  <p>Ana Isabel Cordobés (Diario de Navarra, Máster CCCD)</p>
+                                </div>
+				
+                            </div>
+			    <!-- fin sábado tarde alameda0 -->
+            	        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="ponentes" class="p-b-2">
+                <div class="row">
+                    <div class="col-md-6 col-center text-center">
+                        <h2>Ponentes</h2>
+                        <hr class="separator">
+                    </div>
+                </div>
+
+                <div class="flex-speakers">
+                    <div class="speaker one">
+                        <img class="img-responsive img-circle speakerImg lazy" data-src="img/ponentes/kaeti.jpeg" alt="Kaeti Hinck">
+                        <noscript>
+                            <img class="img-responsive img-circle speakerImg" src="img/ponentes/kaeti.jpeg" alt="Kaeti Hinck">
+                        </noscript>
+                        <h3 class="speakerName"><a href="https://twitter.com/kaeti" class="link">Kaeti Hinck</a></h3>
+                        <p>Editora de datos del Washington Post (EE.UU.). Ha pasado por el equipo de datos del MinnPost y el INN, Institute for Nonprofit News.</p>
+                    </div>
+                    <div class="speaker two">
+                        <img class="img-responsive img-circle speakerImg lazy" data-src="img/ponentes/helena.jpg" alt="Helena Bengtsson">
+                        <noscript>
+                            <img class="img-responsive img-circle speakerImg" src="img/ponentes/helena.jpg" alt="Helena Bengtsson">
+                        </noscript>
+                        <h3 class="speakerName"><a href="https://twitter.com/helenabengtsson" class="link">Helena Bengtsson</a></h3>
+                        <p>Editora de datos en el The Guardian. Pasó veinte años en la televisión nacional sueca y por el Center for Public Integrity en Washington, D.C.</p>
+                    </div>
+		    
+                    <div class="speaker three">
+                        <img class="img-responsive img-circle speakerImg lazy" data-src="img/ponentes/sandhya.jpg" alt="Sandhya Kambhampati">
+                        <noscript>
+                            <img class="img-responsive img-circle speakerImg" src="img/ponentes/sandhya.jpg" alt="Sandhya Kambhampati">
+                        </noscript>
+                        <h3 class="speakerName"><a href="https://twitter.com/sandhya__k" class="link">Sandhya Kambhampati</a></h3>
+                        <p>Fellow de Knight-Mozilla OpenNews en Correctiv.org (Alemania) y analista de datos en The Chronicle of Higher Education (EE.UU.).</p>
+                    </div>
+                    <div class="speaker four">
+                        <img class="img-responsive img-circle speakerImg lazy" data-src="img/ponentes/millan.jpg" alt="Millán Berzosa">
+                        <noscript>
+                            <img class="img-responsive img-circle speakerImg" src="img/ponentes/millan.jpg" alt="Millán Berzosa">
+                        </noscript>
+                        <h3 class="speakerName"><a href="https://twitter.com/mberzosa" class="link">Millán Berzosa</a></h3>
+                        <p>Doctor en Periodismo por la Complutense, periodista y profesor universitario, consultor de Google News Lab.</p>
+                    </div>
+                    <div class="speaker five">
+                        <img class="img-responsive img-circle speakerImg lazy" data-src="img/ponentes/marcos.png" alt="Marcos Vanetta">
+                        <noscript>
+                            <img class="img-responsive img-circle speakerImg" src="img/ponentes/marcos.png" alt="Marcos Vanetta">
+                        </noscript>
+                        <h3 class="speakerName"><a href="https://twitter.com/malev" class="link">Marcos Vanetta</a></h3>
+                        <p>Ex-fellow de Knight-Mozilla OpenNews en Texas Tribune, actualmente hacker en Continuum.io (EE.UU.)</p>
+                    </div>
+                    <div class="speaker six">
+                        <img class="img-responsive img-circle speakerImg lazy" data-src="img/ponentes/antonio.jpg" alt="Antonio Cucho">
+                        <noscript>
+                            <img class="img-responsive img-circle speakerImg" src="img/ponentes/antonio.jpg" alt="Antonio Cucho">
+                        </noscript>
+                        <h3 class="speakerName"><a href="https://twitter.com/antoniocuga" class="link">Antonio Cucho</a></h3>
+                        <p>Ex-fellow de School of Data, cofundador y periodista de datos en Ojo Público (Perú).</p>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-center">
+                    <p class="text text-center balance-text">Y toda la presencia de las distintas comunidades de datos, especialmente de lxs periodistas.</p>
+                </div>
+            </section>
+
+            <section id="organizacion">
+                <div class="row">
+                    <div class="org p-t-2 p-b-2">
+                        <div class="col-md-6 col-center text-center u-white">
+                            <h2>Organización</h2>
+                            <hr class="separator--inverse">
+                    		<p class="text balance-text">Las Jornadas no serían posibles sin la colaboración desinteresada de muchas personas como tú que quieren difundir el periodismo de datos.</p>
+                            <div class="row">
+                                <div class="col-md-6 col-center">
+                                    <h4>Comité organizador</h4>
+                                    <p class="balance-text"><a class="link--inverse" href="https://twitter.com/adolflow">Adolfo Antón Bravo</a>, <a class="link--inverse" href="https://twitter.com/mberzosa">Millán Berzosa</a>, <a class="link--inverse" href="https://twitter.com/cabralens">Mar Cabra</a>, <a class="link--inverse" href="https://twitter.com/adosc">Aleix Cabrera</a>, <a class="link--inverse" href="https://twitter.com/adelgado">Antonio Delgado</a>, <a class="link--inverse" href="https://twitter.com/pilarjlopez">Pilar López</a>, <a class="link--inverse" href="https://twitter.com/iamsortiz">Samuel Ortiz Reina</a>, <a class="link--inverse" href="https://twitter.com/kpeiro">Karma Peiró</a>, <a class="link--inverse" href="https://twitter.com/eli_vivas">Eli Vivas</a>, <a class="link--inverse" href="https://twitter.com/martgnz">Martín González</a> y <a class="link--inverse" href="https://twitter.com/MaiolSalse">Maiol Salse</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="patrocinadores">
+                <div class="row m-t-2 m-b-2">
+                    <div class="sponsors">
+                        <div class="col-md-6 col-center text-center">
+                            <h2>Colaboran</h2>
+                            <hr class="separator">
+
+                            <div class="sponsorList">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="sponsor">
+                                            <img class="sponsorLogo img-responsive u-fullWidth okfn lazy" data-src="img/sponsors/okfn.svg" alt="Open Knowledge España" />
+                                            <noscript>
+                                                <img class="sponsorLogo img-responsive u-fullWidth" src="img/sponsors/okfn.svg" alt="Open Knowledge España" />
+                                            </noscript>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="sponsor">
+                                            <img class="sponsorLogo img-responsive u-fullWidth medialab lazy" data-src="img/sponsors/medialab.svg" alt="Medialab-Prado" />
+                                            <noscript>
+                                                <img class="sponsorLogo img-responsive u-fullWidth" src="img/sponsors/medialab.svg" alt="Medialab-Prado" />
+                                            </noscript>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="sponsor">
+                                            <img class="sponsorLogo img-responsive opennews lazy" data-src="img/sponsors/opennews.png" alt="OpenNews" />
+                                            <noscript>
+                                                <img class="sponsorLogo img-responsive" src="img/sponsors/opennews.png" alt="OpenNews" />
+                                            </noscript>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="sponsor">
+                                            <img class="sponsorLogo img-responsive google lazy" data-src="img/sponsors/google.jpg" alt="Google News Lab" />
+                                            <noscript>
+                                                <img class="sponsorLogo img-responsive" src="img/sponsors/google.jpg" alt="Google News Lab" />
+                                            </noscript>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="sponsor">
+                                            <img class="sponsorLogo img-responsive cartodb lazy" data-src="img/sponsors/cartodb.png" alt="CartoDB" />
+                                            <noscript>
+                                                <img class="sponsorLogo img-responsive" src="img/sponsors/cartodb.png" alt="CartoDB" />
+                                            </noscript>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                         <div class="sponsor">
+                                             <img class="sponsorLogo img-responsive schoolofdata lazy" data-src="img/sponsors/schoolofdata.png" alt="School of Data" />
+                                             <noscript>
+                                                 <img class="sponsorLogo img-responsive" src="img/sponsors/schoolofdata.png" alt="School of Data" />
+                                             </noscript>
+                                         </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+				  <div class="col-md-6">
+				    <div class="sponsor">
+				      <img class="sponsorLogo img-responsive unidadeditorial lazy" data-src="https://es.universianews.net/wp-content/uploads/sites/2/epyc-noticia-624x306.jpg" alt="Escuela de Periodismo y Comunicación de Unidad Editorial" />
+				      <noscript>
+					<img class="sponsorLogo img-responsive" src="https://es.universianews.net/wp-content/uploads/sites/2/epyc-noticia-624x306.jpg" alt="Escuela de Periodismo y Comunicación de Unidad Editorial" />
+				      </noscript>
+				    </div>
+				  </div>
+                                  <div class="col-md-6">
+                                    <div class="sponsor">
+                                      <img class="sponsorLogo img-responsive nacio lazy" data-src="img/sponsors/naciodigital.gif" />
+                                      <noscript>
+                                        <img class="sponsorLogo img-responsive" src="img/sponsors/naciodigital.gif" alt="Nació Digital" />
+                                      </noscript>
+                                    </div>
+                                  </div>
+                                </div>
+				<div class="row">
+                                  <div class="col-md-6">
+        			    <div class="sponsor">
+                                      <img class="sponsorLogo img-responsive pricesoft lazy" data-src="img/sponsors/pricesoft.jpg" alt="Pricesoft" />
+                                      <noscript>
+                                        <img class="sponsorLogo img-responsive" src="img/sponsors/pricesoft.jpg" alt="Pricesoft" />
+                                      </noscript>
+        			    </div>
+                                  </div>
+				  <div class="col-md-6">
+        			    <div class="sponsor">
+                                      <img class="sponsorLogo img-responsive blanquerna lazy" data-src="img/sponsors/blanquerna.png" alt="Blanquerna" />
+                                      <noscript>
+                                        <img class="sponsorLogo img-responsive" src="img/sponsors/blanquerna.png" alt="Blanquerna" />
+                                      </noscript>
+        			    </div>
+                                  </div>
+
+				</div>
+			      </div>
+			      <div class="row">
+				
+                                <div class="col-md-6">
+                                  <div class="sponsor">
+                                    <img class="sponsorLogo img-responsive apm lazy" data-src="img/sponsors/apm.jpg" />
+                                    <noscript>
+                                      <img class="sponsorLogo img-responsive" src="img/sponsors/apm.jpg" alt="Asociación de la Prensa de Madrid" />
+                                      </noscript>
+                                  </div>
+                                </div>
+                                
+                              </div>
+                              <p class="text balance-text">Si quieres patrocinar las jornadas, no dudes en ponerte <a href="mailto:periodismodatos@okfn.es" class="link">en contacto</a> con nosotrxs.</p>
+            	        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contacto">
+                <div class="row">
+                    <div class="contact p-t-2">
+                        <img class="staticMap lazy" data-src='https://api.mapbox.com/styles/v1/mapbox/dark-v8/static/-3.668381,40.408836,13/1250x150@2x?access_token=pk.eyJ1IjoibWFydGluZ256IiwiYSI6ImNpbGd2cG5tMTAwNWV3OGx6MHg1MmltYnQifQ.A6Fvtb7Sk_okvco9kuDziA' alt='Medialab-Prado'>
+                        <noscript>
+                            <img class="staticMap" src='https://api.mapbox.com/styles/v1/mapbox/dark-v8/static/-3.668381,40.408836,13/1250x150@2x?access_token=pk.eyJ1IjoibWFydGluZ256IiwiYSI6ImNpbGd2cG5tMTAwNWV3OGx6MHg1MmltYnQifQ.A6Fvtb7Sk_okvco9kuDziA' alt='Medialab-Prado'>
+                        </noscript>
+                        <div class="mapText col-md-4 col-center text-center u-white">
+                            <h2>Contacto</h2>
+                            <hr class="separator--inverse">
+                            <p>Puedes contactar con nosotros por <a class="link--inverse" href="mailto:periodismodatos@okfn.es">correo electrónico</a>, <a class="link--inverse" href="https://twitter.com/jpdatos">Twitter</a> o <a class="link--inverse" href="https://www.facebook.com/Jpd2016-1541942802770368/">Facebook</a>.</p>
+                            <footer class="footer p-b-3">
+                                <p class="m-0"><i class="fa fa-creative-commons"></i> Open Knowledge Spain, 2016.</p>
+                                <p class="m-0"><a class="link--inverse" href="https://github.com/OKFN-Spain/jpd16">Código fuente</a>.</p>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="js/vendor.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-75007513-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </body>
+</html>
